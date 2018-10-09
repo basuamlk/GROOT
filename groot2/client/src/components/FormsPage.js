@@ -43,48 +43,16 @@ export class FormsPage extends React.Component  {
 
 
     handleSubmit(e)  {
+
+      var dashboard = "dashboard";
+      window.location.href ="http://localhost:3000/"+dashboard;
+      // window.open("http://localhost:3000/dashboard");
         
         // alert('A user was submitted '+ this.state.user +' and pass: '+ this.state.pass);
         e.preventDefault();
-        // this.setState({user: e.target.value});
-
-
-
-        // if(this.nameTextInput.value !== null) {
-        //     var newUser = {
-        //         user: this.nameTextInput.value
-        //       };
-
-
-
-        //     this.setState((prev)=>{
-        //         return {
-        //          user :  prev.user.concat(newUser)
-        //     };
-        // });
-
-
-        //     this.nameTextInput.value = "";
-        //     <DashJumbo user={user} /> 
-        // }
-        // console.log(this.state.user);
-        // e.preventDefault();
     }
 
-    // componentDidMount() {
-    //     ReactDOM.findDOMNode(this.nameTextInput).focus();
-    // }
-    // componentDidMount () {
-    //     this.nameTextInput.value = '';
-    //     ReactDOM.findDOMNode(this.nameTextInput).focus();
-    // }
-
-    
-
   render() {
-    //   let names = this.state.user.map(name => {
-    //       return <li>{name}</li>;
-    //   })
     return(
       <Container>
           <li onClick = {this.toggle}>Sign In</li>
