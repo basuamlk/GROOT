@@ -33,7 +33,7 @@ This project was created during HackGSU 2018. In this hackathon, we tackled the 
 - Go ahead and clone the repo to your computer using
 
 ``
-git clone https://github.com/TigerYassin/Groot.git
+git clone https://github.com/basuamlk/GROOT.git
 ``
 
 - Then navigate to the **/groot2** folder within the project inside your terminal then proceed with the following commands to run the backend on port 5000:
