@@ -38,17 +38,19 @@ git clone https://github.com/basuamlk/GROOT.git
 
 - Then navigate to the **/groot2** folder within the project inside your terminal then proceed with the following commands to run the backend on port 5000:
 
-``
+ ```
  npm install
  npm start
- ``
+ ```
 
 - Then open a new terminal and navigate to the **/client** floder and enter the same commands: 
 
-``
-  npm install
-  npm start
-``
+
+ ```
+ npm install
+ npm start
+ ```
+
 
 - Open a new window on the browser of your choosing and go to [localhost:3000](http://localhost:3000/). And you should see someting like this: 
 
